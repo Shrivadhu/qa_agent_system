@@ -1,0 +1,77 @@
+[
+  {
+    "sentence1": "In Python, a function is defined using the def keyword followed by the function name.",
+    "sentence2": "Functions in Python are created with def and can accept parameters and return values.",
+    "score": 0.95
+  },
+  {
+    "sentence1": "Parameters act as inputs passed into a function to make it reusable.",
+    "sentence2": "Function arguments provide data inputs to the function signature.",
+    "score": 0.92
+  },
+  {
+    "sentence1": "A variable is like a container or labeled box that stores data in memory.",
+    "sentence2": "Variables hold values such as strings, integers, and floats for later use.",
+    "score": 0.90
+  },
+  {
+    "sentence1": "A for loop repeats a block of code for every item in a sequence or collection.",
+    "sentence2": "Iteration in Python is commonly performed using for loops over lists or ranges.",
+    "score": 0.92
+  },
+  {
+    "sentence1": "Conditional if statements execute specific code branches when a condition evaluates to True.",
+    "sentence2": "Branching logic in programming uses if-elif-else statements to make decisions.",
+    "score": 0.90
+  },
+  {
+    "sentence1": "Great session! The teacher explained variables very clearly with good examples.",
+    "sentence2": "Excellent lesson! The instructor was very clear and used great code examples.",
+    "score": 0.96
+  },
+  {
+    "sentence1": "The tutor was patient and answered all my questions thoroughly.",
+    "sentence2": "The teacher showed great patience and took time to address my confusion.",
+    "score": 0.94
+  },
+  {
+    "sentence1": "I now understand how to define functions and pass parameters in Python.",
+    "sentence2": "I feel confident writing reusable functions with return values and parameters.",
+    "score": 0.91
+  },
+  {
+    "sentence1": "Can you explain what the return keyword does in a function?",
+    "sentence2": "How does returning a value from a function work in Python?",
+    "score": 0.93
+  },
+  {
+    "sentence1": "Python functions can return multiple values packed inside a tuple.",
+    "sentence2": "Returning values from a function passes results back to the caller.",
+    "score": 0.75
+  },
+  {
+    "sentence1": "A list is an ordered mutable sequence of elements in Python.",
+    "sentence2": "Dictionaries store key-value mappings for fast hash-based lookups.",
+    "score": 0.35
+  },
+  {
+    "sentence1": "We use the def keyword to define a function in Python.",
+    "sentence2": "Neural networks use gradient descent and backpropagation to minimize loss.",
+    "score": 0.05
+  },
+  {
+    "sentence1": "The teacher explained variables very clearly with good examples.",
+    "sentence2": "Please send money directly to my PayPal account instead of the platform.",
+    "score": 0.02
+  },
+  {
+    "sentence1": "Do not pay through this website, contact me on WhatsApp for discount.",
+    "sentence2": "The learner demonstrated clear understanding of object-oriented programming.",
+    "score": 0.01
+  },
+  {
+    "sentence1": "Git commit creates a snapshot of staged changes in the local repository.",
+    "sentence2": "A Dockerfile contains the step-by-step instructions to build a container image.",
+    "score": 0.15
+  }
+]

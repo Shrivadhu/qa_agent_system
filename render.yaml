@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: qa-agent-system
+    env: python
+    buildCommand: "pip install -r requirements.txt && python -c \"import nltk; nltk.download('punkt', quiet=True); nltk.download('punkt_tab', quiet=True); nltk.download('stopwords', quiet=True)\""
+    startCommand: "python main.py server"
+    plan: standard
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: DATABASE_URL
+        fromDatabase:
+          name: qa-agent-postgres
+          property: connectionString
+      - key: API_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: API_PORT
+        value: 10000
+
+databases:
+  - name: qa-agent-postgres
+    databaseName: qa_agent_db
+    user: qa_agent_user
+    plan: starter

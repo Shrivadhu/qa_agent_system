@@ -1,0 +1,18 @@
+{
+  "session_id": "session_example_001",
+  "transcript": "Teacher: Hello! Today we're going to learn about Python functions. Functions are reusable blocks of code that perform specific tasks. Let me show you how to create a simple function. First, we use the 'def' keyword, followed by the function name. For example: def greet(): print('Hello!'). This creates a function called greet that prints Hello when called.\n\nStudent: That makes sense. So the def keyword tells Python we're defining a function?\n\nTeacher: Exactly! You've got it. Now, functions can also take parameters. Parameters are like inputs to the function. For example, we can modify our greet function to take a name: def greet(name): print(f'Hello, {name}!'). Now when we call greet('Alice'), it will print 'Hello, Alice!'.\n\nStudent: Oh, I see! So parameters make functions more flexible?\n\nTeacher: Precisely! Let me give you another example with multiple parameters. We can create a function that adds two numbers: def add_numbers(a, b): return a + b. Notice the 'return' keyword - this sends a value back to wherever the function was called.\n\nStudent: I think I understand now. Can I try writing a function?\n\nTeacher: Of course! Try creating a function called multiply that takes two parameters and returns their product.\n\nStudent: Okay, let me try... def multiply(x, y): return x * y. Is that right?\n\nTeacher: Perfect! You've successfully created your first function with parameters and a return value. You're really getting the hang of this. Functions are one of the most important concepts in programming because they help us organize our code and avoid repetition.\n\nStudent: Thank you! This was really helpful. I feel like I understand functions much better now.",
+  "promised_skills": [
+    "python_basics",
+    "python_functions"
+  ],
+  "feedback_data": {
+    "free_text_comment": "Excellent session! The teacher explained functions step by step with clear examples. I appreciated how they started with simple examples and gradually introduced more complex concepts like parameters and return values. The teacher was very patient and encouraged me to try writing my own function, which really helped solidify my understanding. I now feel confident creating and using functions in Python."
+  },
+  "participant_ratings": {
+    "clarity": 5.0,
+    "helpfulness": 5.0,
+    "patience": 5.0,
+    "knowledge": 5.0,
+    "overall": 5.0
+  }
+}

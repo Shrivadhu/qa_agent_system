@@ -1,0 +1,47 @@
+{
+  "python_basics": [
+    "variable", "function", "loop", "if statement", "data type",
+    "string", "integer", "list", "dictionary", "print",
+    "input", "output", "syntax", "indentation"
+  ],
+  "python_functions": [
+    "function", "def", "parameter", "argument", "return",
+    "call", "reusable", "signature", "scope", "lambda",
+    "default parameter", "keyword argument", "output"
+  ],
+  "data_structures": [
+    "array", "list", "tuple", "dictionary", "set",
+    "stack", "queue", "tree", "graph", "hash table",
+    "linked list", "complexity", "algorithm"
+  ],
+  "web_development": [
+    "html", "css", "javascript", "dom", "http",
+    "api", "rest", "json", "frontend", "backend",
+    "server", "client", "request", "response"
+  ],
+  "machine_learning": [
+    "model", "training", "prediction", "feature", "label",
+    "supervised", "unsupervised", "neural network", "dataset",
+    "accuracy", "loss", "optimization", "gradient"
+  ],
+  "sql_databases": [
+    "select", "insert", "update", "delete", "table",
+    "query", "join", "foreign key", "primary key", "index",
+    "schema", "database", "where", "group by"
+  ],
+  "object_oriented_programming": [
+    "class", "object", "inheritance", "polymorphism", "encapsulation",
+    "method", "attribute", "constructor", "instance", "interface",
+    "abstraction", "override", "self"
+  ],
+  "git_version_control": [
+    "commit", "branch", "merge", "pull request", "clone",
+    "repository", "push", "pull", "checkout", "rebase",
+    "conflict", "status", "diff"
+  ],
+  "docker_containers": [
+    "container", "image", "dockerfile", "build", "run",
+    "port", "volume", "compose", "registry", "layer",
+    "daemon", "environment", "network"
+  ]
+}
